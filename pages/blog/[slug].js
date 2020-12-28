@@ -66,7 +66,7 @@ const stagger = {
 export default function Article({ article }) {
    const disqusShortname = "nizar-2"
    const disqusConfig = {
-      url: `https://nepolog.vercel.app/blog/${article.articles[0].slug}`,
+      url: `http://localhost:3000/blog/${article.articles[0].slug}`,
       identifier: article.articles[0].id,
       title: article.articles[0].title,
    }
