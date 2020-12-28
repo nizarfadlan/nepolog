@@ -1,0 +1,33 @@
+/* Skill */
+.skill {
+   margin-top: 10rem;
+   background-color: #fff;
+   padding: 10px;
+}
+
+.scard {
+   border: none !important;
+   text-align: center;
+   align-items: center;
+}
+
+.scard svg {
+   width: 80px;
+   filter: grayscale(1);
+   transition-property: all;
+   transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+   transition-duration: .15s;
+}
+
+.scard:hover svg {
+   transform: scale(1.1);
+   filter: grayscale(0);
+}
+
+.scard_title {
+   font-weight: 600;
+}
+
+.scard_year {
+   font-weight: 600;
+}
