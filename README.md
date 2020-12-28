@@ -1,8 +1,8 @@
-# Nepolog
+# Nepolog :wave:	
 
 Nepolog is a Portfolio and Blog website created with [Next.JS](https://nextjs.org/) for Blogs using [Strapi](https://strapi.io/).
 
-## Demo
+## Demo :link:
 
 [https://nepolog.vercel.app/](https://nepolog.vercel.app/)
 
@@ -16,20 +16,20 @@ npm install
 
 ## Run :rocket:
 
-### :rocket: Development
+### Development
 
 ```bash
 npm run dev # run development
 ```
 
-### :rocket: Production
+### Production
 
 ```bash
 npm run build # create .next directory
 npm run start # start server
 ```
 
-## Configuration Strapi
+## Configuration Strapi :wrench:
 
 ### Set up Strapi locally
 
